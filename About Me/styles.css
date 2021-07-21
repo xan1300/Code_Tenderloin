@@ -1,0 +1,18 @@
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+    font-size: 32px;
+}
+
+.profile-content-wrapper h1 {
+    color: red;
+    font-size: 64px;
+}
