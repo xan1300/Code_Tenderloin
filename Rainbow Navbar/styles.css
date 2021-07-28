@@ -1,0 +1,175 @@
+/*Master styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav Styles*/
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.left-side {
+    display: flex;
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+/* Home */
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottem 0.5s;
+}
+.nav-link-wrapper a {
+    color: rgb(169, 169, 169);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black
+}
+.nav-link-wrapper a:hover {
+    color: black;
+}
+.active-nav-link a {
+    color: black !important;
+    font-weight: bold;
+}
+
+/* Red */
+.red {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottem 0.5s;
+}
+.red a {
+    color: rgb(255, 124, 124);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.red:hover {
+    border-bottom: 1px solid black
+}
+.red a:hover {
+    color: rgb(187, 0, 0);
+}
+
+/* Orange */
+.orange {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottem 0.5s;
+}
+.orange a {
+    color: rgb(255, 139, 97);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.orange:hover {
+    border-bottom: 1px solid black
+}
+.orange a:hover {
+    color: rgb(197, 53, 0);
+}
+
+/* Yellow */
+.yellow {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottem 0.5s;
+}
+.yellow a {
+    color: rgb(255, 255, 118);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.yellow:hover {
+    border-bottom: 1px solid black
+}
+.yellow a:hover {
+    color: rgb(184, 184, 0);
+}
+
+/* Green */
+.green {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottem 0.5s;
+}
+.green a {
+    color: rgb(104, 255, 104);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.green:hover {
+    border-bottom: 1px solid black
+}
+.green a:hover {
+    color: green;
+}
+
+/* Blue */
+.blue {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottem 0.5s;
+}
+.blue a {
+    color: rgb(93, 93, 255);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.blue:hover {
+    border-bottom: 1px solid black
+}
+.blue a:hover {
+    color: rgb(0, 0, 175);
+}
+
+/* Purple */
+.purple {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottem 0.5s;
+}
+.purple a {
+    color: rgb(255, 101, 255);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.purple:hover {
+    border-bottom: 1px solid black
+}
+.purple a:hover {
+    color: purple;
+}
+
+/* Portfolio styles */
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-item-wrapper {
+    position: relative;
+}
+.portfolio-img-background {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading {
+   text-align: center;
+   font-size: 42px;
+   text-shadow: 2px 2px 5px red;
+}
