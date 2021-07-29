@@ -171,5 +171,85 @@ body {
 .heading {
    text-align: center;
    font-size: 42px;
-   text-shadow: 2px 2px 5px red;
+   text-shadow: 2px 2px 5px rgb(255, 116, 139);
+}
+
+/* Red page */
+.color-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.title h1 {  
+    font-size: 72px;
+    color: black;
+    text-shadow: 4px 4px 8px red;
+}
+.title p1 {    
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+}
+.red-image img{
+    width: 100%;
+    height: 1000px;
+}
+
+/* orange page */
+.title h2 {  
+    font-size: 72px;
+    color: black;
+    text-shadow: 4px 4px 8px orange;
+}
+.title p2 {    
+    font-size: 48px;
+    font-weight: bold;
+    color: orange;
+}
+
+/* yellow page */
+.title h3 {  
+    font-size: 72px;
+    color: black;
+    text-shadow: 4px 4px 8px yellow;
+}
+.title p3 {    
+    font-size: 48px;
+    font-weight: bold;
+    color: yellow;
+}
+
+/* green page */
+.title h4 {  
+    font-size: 72px;
+    color: black;
+    text-shadow: 4px 4px 8px green;
+}
+.title p4 {    
+    font-size: 48px;
+    font-weight: bold;
+    color: green;
+}
+
+/* blue page */
+.title h5 {  
+    font-size: 72px;
+    color: black;
+    text-shadow: 4px 4px 8px blue;
+}
+.title p5 {    
+    font-size: 48px;
+    font-weight: bold;
+    color: blue;
+}
+
+/* purple page */
+.title h6 {  
+    font-size: 72px;
+    color: black;
+    text-shadow: 4px 4px 8px purple;
+}
+.title p6 {    
+    font-size: 48px;
+    font-weight: bold;
+    color: purple;
 }
